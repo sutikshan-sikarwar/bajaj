@@ -17,7 +17,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <h1>API input</h1>
+            <h1>21BCE10930</h1>
             <InputForm onResponse={handleResponse} />
             {responseData && (
                 <>

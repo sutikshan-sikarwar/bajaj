@@ -9,7 +9,7 @@ const InputForm = ({ onResponse }) => {
         e.preventDefault();
         try {
             const data = JSON.parse(inputValue);
-            const response = await axios.post('http://localhost:5000/bfhl', data);
+            const response = await axios.post('https://bajaj-5s6e.onrender.com/bfhl', data);
             onResponse(response.data);
             setError(null);
         } catch (err) {
